@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeachersAdd"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/accountProfile"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/name"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="20dp"
+        android:text="Account Profile"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/Terms"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/terms"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="20dp"
+        android:text="Terms"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/About"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/about"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="20dp"
+        android:text="About"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Logout"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/logout"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="20dp"
+        android:text="Logout"
+        android:textColor="#F44336"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/term"
+            android:backgroundTint="#000"
+            android:padding="12.5dp"
+            android:layout_gravity="start" />
+
+        <TextView
+            android:id="@+id/term_number"
+            android:layout_width="21dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="-1dp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="10sp"
+            android:tint="@color/blue1" />
+
+        <TextView
+            android:id="@+id/term_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/no_line_password"
+            android:drawablePadding="30dp"
+            android:fontFamily="@font/dm_sans_bold"
+            android:padding="12.5dp"
+            android:text="1st Term"
+            android:textColor="#000"
+            android:textSize="15sp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/term_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/delete"
+            android:padding="13dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="-68dp"
+            android:background="#DDDDDD" />
+    </FrameLayout>
+
+
+</LinearLayout>

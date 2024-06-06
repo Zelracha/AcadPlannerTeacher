@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AcademicPlanner"
+        tools:targetApi="31">
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AccountProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Terms"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:exported="false"
+            android:label="@string/title_activity_over_view"
+            android:theme="@style/Theme.AcademicPlanner.NoActionBar" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".TeachersAdd"
+            android:exported="false"
+            />
+
+        <activity
+            android:name=".TeachersUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".TeachersPicker"
+            android:exported="false" />
+        <activity
+            android:name=".ui.teachers.TeachersFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.calendar.CalendarFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectsAdd"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectsUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".ui.subjects.SubjectsFragment"
+            android:exported="false" />
+        <activity
+            android:name=".TimetableAdd"
+            android:exported="false" />
+        <activity
+            android:name=".ui.timetable.TimetableFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>
+

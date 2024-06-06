@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_1">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/overview"
+            android:title="Overview"/>
+
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/agenda"
+            android:title="Agenda"/>
+    </group>
+
+    <group android:id="@+id/group_2">
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar"
+            android:title="Calendar"/>
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetable"
+            android:title="Timetable"/>
+    </group>
+
+    <group android:id="@+id/group_3">
+        <item
+            android:id="@+id/nav_subjects"
+            android:icon="@drawable/subjects"
+            android:title="Subjects"/>
+        <item
+            android:id="@+id/nav_teachers"
+            android:icon="@drawable/teachers"
+            android:title="Teachers"/>
+    </group>
+
+    <group android:id="@+id/group_4">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"/>
+    </group>
+</menu>

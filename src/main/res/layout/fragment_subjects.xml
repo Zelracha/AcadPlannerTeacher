@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Subjects_fragment"
+    tools:context=".ui.subjects.SubjectsFragment">
+
+
+    <ImageView
+        android:id="@+id/empty_subjectview"
+        android:layout_width="237dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/no_subjects" />
+
+    <TextView
+        android:id="@+id/no_subject_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="No Subjects"
+        android:fontFamily="@font/dm_sans_bold"
+        android:textColor="#1D294F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empty_subjectview" />
+
+    <TextView
+        android:id="@+id/no_subject_data_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Subject you add will show up here"
+        android:textColor="#1D294F"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empty_subjectview" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/subject_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="719dp"
+            android:padding="4dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_subject_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/blue_violet"
+            android:clickable="true"
+            android:contentDescription="@string/add_button_description"
+            android:focusable="true"
+            app:srcCompat="@drawable/add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/spinner_background"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/spinner_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/menu1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/terms"
+                android:backgroundTint="@color/black"/>
+
+            <Spinner
+                android:id="@+id/spinner_terms"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-39dp"
+                android:textColor="#1D294F"
+                android:theme="@style/SpinnerFont" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

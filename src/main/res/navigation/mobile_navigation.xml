@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_overview">
+
+    <fragment
+        android:id="@+id/nav_overview"
+        android:name="com.example.academicplanner.ui.overview.OverviewFragment"
+        android:label="@string/menu_overview"
+        tools:layout="@layout/fragment_overview" />
+
+    <fragment
+        android:id="@+id/nav_agenda"
+        android:name="com.example.academicplanner.ui.agenda.AgendaFragment"
+        android:label="@string/menu_agenda"
+        tools:layout="@layout/fragment_agenda" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.academicplanner.ui.calendar.CalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_timetable"
+        android:name="com.example.academicplanner.ui.timetable.TimetableFragment"
+        android:label="@string/menu_timetable"
+        tools:layout="@layout/fragment_timetable" />
+
+    <fragment
+        android:id="@+id/nav_subjects"
+        android:name="com.example.academicplanner.ui.subjects.SubjectsFragment"
+        android:label="@string/menu_subjects"
+        tools:layout="@layout/fragment_subjects" />
+
+    <fragment
+        android:id="@+id/nav_teachers"
+        android:name="com.example.academicplanner.ui.teachers.TeachersFragment"
+        android:label="@string/menu_teachers"
+        tools:layout="@layout/fragment_teachers" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.academicplanner.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

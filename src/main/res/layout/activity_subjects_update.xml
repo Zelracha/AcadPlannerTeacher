@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubjectsUpdate"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/arrow_back"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/design_button"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/name_input2"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/subject"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="center|start"
+        android:hint="Add a name"
+        android:padding="12.5dp"
+        android:textColor="#1D294F"
+        android:textSize="16sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/color_picker2"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:gravity="center|start"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/circle"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Pick a color"
+        android:padding="12.5dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/teacher_picker2"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:gravity="center|start"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/teacher"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Add a teacher"
+        android:padding="12.5dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="#DDDDDD" />
+
+
+    <TextView
+        android:id="@+id/terms_picker2"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:gravity="center|start"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/terms"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Choose terms (optional)"
+        android:padding="12.5dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="#DDDDDD" />
+
+    <EditText
+        android:id="@+id/note_input2"
+        android:layout_width="361dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:gravity="start"
+        android:hint="Add a note"
+        android:inputType="textMultiLine"
+        android:maxLength="100"
+        android:minHeight="48dp"
+        android:padding="12.5dp"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:background="#DDDDDD" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/delete_button"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="DELETE"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="497dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="92dp"
+        android:src="@drawable/round_shape" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="513dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="center"
+        android:text="Get Started"
+        android:textColor="#1D294F"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="490dp"
+        android:fontFamily="@font/dm_sans"
+        android:gravity="center"
+        android:text="Create your account"
+        android:textColor="#717171"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtemail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/input_design"
+        android:hint="Name"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="20dp"
+        android:textColor="#1D294F"
+        android:padding="12.5dp" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtusername"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:textColor="#1D294F"
+        android:padding="12.5dp" />
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtpassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/username"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:textColor="#1D294F"
+        android:padding="12.5dp" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsignup2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:textColor="#1D294F"
+        android:padding="12.5dp" />
+
+    <Button
+        android:id="@+id/btnsignup2"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signinredirect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/design_button"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signinredirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="128dp"
+        android:fontFamily="@font/dm_sans"
+        android:gravity="center"
+        android:text="Already have an account? Sign in"
+        android:textColor="#677CB3"
+        android:textSize="16sp" />
+
+</RelativeLayout>

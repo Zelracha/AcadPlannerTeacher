@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#ffff</color>
+    <color name="darkblue">#1d294f</color>
+    <color name="blue1">#3558b0</color>
+    <color name="lavender">#6c81cb</color>
+    <color name="lavender_light">#c4d2f5</color>
+    <color name="blue_violet">#4f5f8b</color>
+    <color name="lightblue1">#6daee8</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="gray">#888</color>
+    <color name="lightgray">#EFEFEF</color>
+    <color name="blue">#03039E</color>
+    <color name="lightblue">#9C9CFD</color>
+
+    <style name="NavFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

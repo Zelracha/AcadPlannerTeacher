@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Terms">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/termback_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/arrow_back"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/apply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/design_button"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/switch_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="Terms"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+    </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/terms_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/term_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="center"
+        android:text="Add new term"
+        android:textAllCaps="false"
+        android:textColor="@color/blue1"
+        android:tint="@color/blue1"
+        android:drawableStart="@drawable/add_new_term"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:drawablePadding="8dp"/>
+
+
+</LinearLayout>

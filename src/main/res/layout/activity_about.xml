@@ -1,0 +1,276 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/aboutback_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/arrow_back"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/switch_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="About"
+                android:textColor="@color/darkblue"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:textColor="@color/blue1"
+            android:text="References"
+            android:textSize="27sp"
+            android:fontFamily="@font/dm_sans_bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/references2"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/dm_sans"
+                android:justificationMode="inter_word"
+                android:text="Academic Planner has been thoughtfully developed by integrating the best features from popular productivity and academic planning tools, specifically drawing inspiration from TickTick and Schedule Planner. By merging TickTick's intuitive task management and scheduling capabilities with Schedule Planner's specialized academic planning and organization features, Academic Planner offers a comprehensive solution tailored to meet the unique needs of students. This all-in-one app ensures students can effectively organize their schedules, track their assignments, plan their study sessions, and stay on top of their academic responsibilities in one seamless platform."
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/references"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:textColor="@color/blue1"
+            android:text="About Application"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textSize="27sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="35dp"
+                android:textColor="@color/darkblue"
+                android:text="Our Mission"
+                android:textSize="19sp"
+                android:fontFamily="@font/dm_sans_bold" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/dm_sans"
+                android:justificationMode="inter_word"
+                android:text="Our objective is to improve the educational experience by allowing students and teachers to manage their calendars, subjects, and timetables more successfully and efficiently."
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         card_view:cardCornerRadius="8dp"
+         card_view:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/description3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:textColor="@color/darkblue"
+                    android:text="Key Features"
+                    android:textSize="19sp"
+                    android:fontFamily="@font/dm_sans_bold" />
+
+                <TextView
+                    android:id="@+id/description4"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:justificationMode="inter_word"
+                    android:text="- Study Planner: Plan your study sessions effectively, allocate time for each subject, and optimize your study routine for better results."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/description5"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="35dp"
+                    android:justificationMode="inter_word"
+                    android:text="- Personalized Timetables: Create and customize your class schedules, extracurricular activities, and personal events with ease."
+                    android:textSize="17sp"
+                    android:fontFamily="@font/dm_sans" />
+
+                <TextView
+                    android:id="@+id/description6"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="35dp"
+                    android:justificationMode="inter_word"
+                    android:text="- Calendar View: Visualize your entire schedule in a comprehensive calendar, making it easy to see what’s coming up at a glance."
+                    android:textSize="17sp"
+                    android:fontFamily="@font/dm_sans" />
+
+                <TextView
+                    android:id="@+id/description7"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:justificationMode="inter_word"
+                    android:text="- Customizable Reminders: Set personalized reminders for important tasks, classes, and exams to stay on top of your schedule."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/description8"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:text="- Priority Categorization: Organize your tasks and assignments by priority to manage your workload efficiently."
+                    android:textSize="17sp"
+                    android:fontFamily="@font/dm_sans" />
+
+                <TextView
+                    android:id="@+id/description9"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:justificationMode="inter_word"
+                    android:text="- Data Storage: Store important information such as your subjects and basic details about your professors, helping you keep all your academic data organized."
+                    android:textSize="17sp"
+                    android:fontFamily="@font/dm_sans" />
+
+            </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/credits"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:textColor="@color/blue1"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="Developers"
+            android:textSize="27sp" />
+
+   <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/credits2"
+                android:layout_width="294dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="35dp"
+                android:layout_height="wrap_content"
+
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/dm_sans"
+                android:text="• Roselyn Claveria\n• Gerald Cancino\n• Julia Mae Buenafe\n• Justinne Marie Namoc\n• Lianna Marie Layan\n• Rose Jean Salas\n• Mihca Jasmin Bautista"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

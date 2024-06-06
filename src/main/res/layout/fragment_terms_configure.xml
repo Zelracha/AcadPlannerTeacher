@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_bold"
+            android:padding="16dp"
+            android:text="Configure"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/dm_sans"
+            android:text="Title"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/term_title_text"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/dm_sans"
+            android:background="@drawable/no_line_password"
+            android:hint=""
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#B3B3B3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|end">
+
+        <Button
+            android:id="@+id/term_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="14sp"
+            android:textColor="@color/blue1"
+            android:fontFamily="@font/dm_sans_bold"
+            android:background="@color/transparent"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/term_edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="14sp"
+            android:textColor="@color/blue1"
+            android:fontFamily="@font/dm_sans_bold"
+            android:background="@color/transparent"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Academic Planner</string>
+    <string name="title_activity_over_view">OverView</string>
+    <string name="title_activity_teachers_add">Teachers Add</string>
+    <string name="title_activity_teachers_update">Teachers Update</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_button_description">Add new item</string>
+
+    <string name="menu_overview">Overview</string>
+    <string name="menu_agenda">Agenda</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_timetable">Timetable</string>
+    <string name="menu_subjects">Subjects</string>
+    <string name="menu_teachers">Teachers</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+</resources>

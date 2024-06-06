@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/header_bg"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/blue_violet"
+        android:paddingTop="10dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="5dp">
+
+        <ImageView
+            android:id="@+id/userProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/user" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dm_sans"
+        android:paddingTop="5dp"
+        android:text="User Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="User Email"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>

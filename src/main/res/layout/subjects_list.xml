@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="5dp"
+    android:layout_margin="10dp"
+    android:id="@+id/subjectLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/blue1"
+            android:paddingTop="10dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="5dp">
+
+            <ImageView
+                android:id="@+id/subject_pic"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/school" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/subject_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:fontFamily="@font/dm_sans_bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/teacher_id_txt"
+                app:layout_constraintTop_toTopOf="@+id/teacher_id_txt" />
+
+            <TextView
+                android:id="@+id/subject_next_class_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:text="Schedule"
+                android:textColor="#000"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/no_shedule_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="No Schedule"
+                    android:textColor="#000"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/subject_day_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="Day"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/dot_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="•"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/subject_time_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="Time"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

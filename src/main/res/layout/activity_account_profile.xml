@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountProfile"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/profileback_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/arrow_back"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/profileEdit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/design_button"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/accountProfilePic"
+        android:layout_width="269dp"
+        android:layout_height="251dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="#E2E9FD"
+        android:scaleType="center"
+        android:src="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/profileUsername"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/username"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="12.5dp"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/name"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="12.5dp"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/no_line_password"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/dm_sans"
+        android:padding="12.5dp"
+        android:textColor="#1D294F"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="#DDDDDD" />
+
+</LinearLayout>

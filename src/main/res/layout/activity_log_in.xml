@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="394dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="147dp"
+        android:src="@drawable/round_shape" />
+
+    <TextView
+        android:layout_width="358dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="444dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="center"
+        android:text="Welcome Back"
+        android:textColor="#1D294F"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="433dp"
+        android:fontFamily="@font/dm_sans"
+        android:gravity="center"
+        android:text="Log in to your account"
+        android:textColor="#717171"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/txtusername2"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtpassword2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/input_design"
+        android:fontFamily="@font/dm_sans"
+        android:drawableLeft="@drawable/username"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="12.5dp"
+        android:textColor="#1D294F" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtpassword2"
+        android:layout_width="377dp"
+        android:layout_height="49dp"
+        android:layout_above="@id/btnlogin2"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/input_design"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="Password"
+        android:paddingStart="12.5dp"
+        android:paddingEnd="12.5dp"
+        android:paddingBottom="12.5dp"
+        app:passwordToggleEnabled="true"
+        app:boxBackgroundMode="none">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="20dp"
+            android:background="@drawable/no_line_password"
+            android:fontFamily="@font/dm_sans"
+            android:singleLine="true"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnlogin2"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signupredirect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/design_button"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="LOG IN"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signupredirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:fontFamily="@font/dm_sans"
+        android:gravity="center"
+        android:text="Don't have an account? Sign up"
+        android:textColor="#677CB3"
+        android:textSize="16sp" />
+
+</RelativeLayout>
